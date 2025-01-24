@@ -1,6 +1,6 @@
 import { SubmitButtonProps } from "@/types/form";
 
-const SubmitButton: React.FC<SubmitButtonProps> = ({ children, className = "" }) => {
+const SubmitButton: React.FC<SubmitButtonProps> = ({ children }) => {
   return (
     <button
       type="submit"
